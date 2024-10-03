@@ -42,7 +42,7 @@ function draw() {
   textAlign(LEFT);
   text(confianza, 10, height - 4);
 
-  if ((label = "lentes && confianza" >= 0.9)) {
+  if (label == "lentes && confianza" >= 0.9) {
     background(255, 200, 0);
   }
 }
